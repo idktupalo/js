@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'Carter One', cursive;
+    margin-bottom:40px;
+    text-align: center;
+    color: rgb(238, 255, 240);
+}
+
+#field {
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: 320px;
+    box-sizing: content-box;
+    border: 1px solid black;
+}
+
+.chess-block {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.bg-black {
+    background: #525252;
+}
+
+.bg-tree {
+    background: rgb(230, 186, 142);
+}
+
+.active{
+    background-image: url(images/chess-horse.png);
+    background-color: lightgreen;
+    background-size: contain;
+}
+
+.green {
+    background: rgb(180, 226, 13);
+}
